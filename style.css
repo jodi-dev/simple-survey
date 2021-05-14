@@ -5,13 +5,11 @@ body {
 
 .row {
     display:flex;
+    align-items: center;
+    justify-content: center;
 }
 .column {
     flex: 50%;
-}
-.question-box {
-    margin-left: 10rem;
-    margin-right: 10rem;
 }
 
 #paper {
