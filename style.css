@@ -1,0 +1,36 @@
+body {
+    display:flex;
+    background-color: #c8cdce
+}
+
+.row {
+    display:flex;
+}
+.column {
+    flex: 50%;
+}
+.question-box {
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+#paper {
+    background-color: #fff;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border-radius: 5px;
+}
+
+#header {
+    background-color: teal;
+    border-radius: 5px 5px 0px 0px;
+    height: auto;
+}
+
+#foot {
+    background-color: teal;
+    border-radius: 0px 0px 5px 5px;
+    height: auto;
+}
