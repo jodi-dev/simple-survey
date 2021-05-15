@@ -41,6 +41,12 @@ table {
 table, th, td {
     border-collapse: collapse;
     border: 0.5px solid #919191;
+    font-size: small;
+}
+
+tr {
+    display: table-row;
+    text-align: center;
 }
 
 textarea {
