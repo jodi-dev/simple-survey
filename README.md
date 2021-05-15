@@ -29,6 +29,11 @@ Design a survey about a UI (linked to).
 
 - [Hippocrates—Test Page by Arsen Kolyba](https://dribbble.com/shots/7913688-Hippocrates-Test-Page): I like the big header region, I could delineate a section like this to introduce the link/image of the UI to criticize.
 
+## Palette
+
+Primary: #ffba59
+Secondary: #5560f7
+
 ## PS
 
 Hi TA/Professor! I designed my own [website](https://jodi-dev.github.io) and wouldn't mind your feedback to improve it.

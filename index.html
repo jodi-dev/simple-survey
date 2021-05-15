@@ -4,29 +4,41 @@
     <meta>
     <title>Survey</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&Lato:wght@300&family=Roboto:ital@1&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="paper">
         <section id="header">
             <div class="row">
                 <div>
-                    <h1>Survey</h1>
+                    <h1>SEG3125 Summer 2021 Student Survey</h1>
                 </div>
             </div>
             <div class="row">
-                <div class="column">
-                    <div>
-                        <h2>
-                            Critical evaluation of UI designs
-                        </h2>
-                        <p>
-                            This survey was created as an exercise for SEG3125 Summer 2021, where students were asked to apply good UI evaluation principles to analyze an existing UI design. The survey has 5 questions and will take 10min to complete.
-                        </p>
-                    </div>
+            <div class="column">
+                <div id="header-text">
+                    <h2>
+                        Critical evaluation of UI designs
+                    </h2>
+                    <p>
+                        This survey was created as an exercise for SEG3125 Summer 2021, where students were asked to apply good UI evaluation principles to analyze an existing UI design. The chosen UI to be analyzed in this survey is the website of Dribbble, a platform for designers to show their work to the community.
+                    </p>
+                    <small>
+                        This survey contain 5 questions and will take ~10 minutes to complete.
+                    </small>
                 </div>
-                <div class="column">
+            </div>
+            </div>
+            <div class="column">
+                <div class="tooltip">
                     <div class="row">
-                        <img id="ui-image" src="assets/tmp.png">
+                        <div id="a-container">
+                            <a href="https://dribbble.com">
+                                <img id="ui-image" src="assets/tmp.png">
+                            </a>
+                        </div>
+                        <span class="tooltiptext">Click to redirect to dribbble.com</span>
                     </div>
                 </div>
             </div>
@@ -37,15 +49,15 @@
                     <div class="row">
                         <div class="question-box">
                             <h3>What is your E-mail address?</h3>
-                            <p>So we can contact you to follow up with you regarding your responses.</p>
-                            <input type="text" name="" id="" placeholder="Type your E-mail here...">
+                            <p class="question-desc">So we can contact you to follow up with you regarding your responses.</p>
+                            <input type="text" name="" id="email-text" placeholder="Type your E-mail here...">
                         </div>
                     </div>
                     <hr>
                     <div class="row">
                         <div class="question-box">
                             <h3>Which school year are you in?</h3>
-                            <p>So we have a better sense of our surveyed population.</p>
+                            <p class="question-desc">So we have a better sense of our surveyed population.</p>
                             <select name="select" id="select">
                                 <option value="choice1">Year 1</option>
                                 <option value="choice2">Year 2</option>
@@ -59,22 +71,32 @@
                     <div class="row">
                         <div class="question-box">
                             <h3>Which best describes how you accessed the UI?</h3>
-                            <p>Different devices/browsers may impact your response.</p>
-                            <input type="checkbox" name="checkbox" id="checkbox">
-                            <label for="checkbox">Desktop</label>
-                            <input type="checkbox" name="checkbox" id="checkbox">
-                            <label for="checkbox">Laptop</label>
-                            <input type="checkbox" name="checkbox" id="checkbox">
-                            <label for="checkbox">iPad</label>
-                            <input type="checkbox" name="checkbox" id="checkbox">
-                            <label for="checkbox">Mobile phone</label>
+                            <p class="question-desc">Different devices/browsers may impact your response.</p>
+                            <div id="check-box-row">
+                                <div>
+                                    <input type="checkbox" name="checkbox" id="checkbox">
+                                    <label for="checkbox">Desktop</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="checkbox" id="checkbox">
+                                    <label for="checkbox">Laptop</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="checkbox" id="checkbox">
+                                    <label for="checkbox">iPad</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="checkbox" id="checkbox">
+                                    <label for="checkbox">Mobile phone</label>
+                                </div>
+                            </div>
                         </div> 
                     </div>
                     <hr>
                     <div class="row">
                         <div class="question-box">
                             <h3>Do you like the UI of the linked website?</h3>
-                            <p>Go with your gut feelings.</p>
+                            <p class="question-desc">Go with your gut feelings.</p>
                             <table>
                                 <thead>
                                     <tr>
@@ -119,19 +141,21 @@
                     <hr>
                     <div class="row">
                         <div class="question-box">
-                            <h3>Are there anything else you'd like to say about the UI?</h3>
-                            <p>Feel free to praise or shame, any comment is welcome.</p>
+                            <h3>Anything else you'd like to say about the UI?</h3>
+                            <p class="question-desc">Feel free to praise or shame, any comment is welcome.</p>
                             <textarea>Enter text here...</textarea>
                         </div>
                     </div>
                 </form>
-                <button type="submit" form="form" value="Submit">Submit</button>
-                <button>Clear</button>
+                <div class="row">
+                    <button class="submit-btn" type="submit" form="form" value="Submit">Submit</button>
+                    <button class="clear-btn">Clear</button>
+                </div>
             </div>
         </section>
         <section id="foot">
             <div class="row">
-                <p>c-Elysaia</p>
+                <small>&copy; Copyright 2021 Elysaia</small>
             </div>
         </section>
     </div>
