@@ -1,6 +1,10 @@
 body {
-    display:flex;
     background-color: #c8cdce
+}
+
+hr {
+    width: 60%;
+    border: 0.5px dotted;
 }
 
 .row {
@@ -10,6 +14,10 @@ body {
 }
 .column {
     flex: 50%;
+}
+.question-box {
+    width: 450px;
+    padding: 1rem;
 }
 
 #paper {
