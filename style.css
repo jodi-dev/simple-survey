@@ -15,6 +15,7 @@ hr {
 .column {
     flex: 50%;
 }
+
 .question-box {
     width: 450px;
     padding: 1rem;
@@ -30,9 +31,16 @@ hr {
 }
 
 #header {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 3rem;
     background-color: teal;
     border-radius: 5px 5px 0px 0px;
     height: auto;
+}
+
+#ui-image {
+    width: 70%;
 }
 
 #foot {
