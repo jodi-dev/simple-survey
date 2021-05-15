@@ -136,6 +136,14 @@ label {
     padding: 2rem;
 }
 
+@media screen and (min-width: 1200px) {
+    #header-p {
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }    
+}
+
+
 #a-container {
     width: 100%;
     text-align: center!important;
