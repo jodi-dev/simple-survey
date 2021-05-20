@@ -5,7 +5,8 @@
     <title>Survey</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&Lato:wght@300&family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DBai+Jamjuree&Lato:wght@300&family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div id="paper">
@@ -19,12 +20,17 @@
             <div class="column">
                 <div id="header-text">
                     <h2>
+                        <i class="fa fa-paper-plane" aria-hidden="true"></i>
                         Critical evaluation of UI designs
                     </h2>
-                    <p id="header-p">
+                    <small id="header-p">
                         This survey was created as an exercise for SEG3125 Summer 2021, where students were asked to apply good UI evaluation principles to analyze an existing UI design. The chosen UI to be analyzed in this survey is the website of Dribbble, a platform for designers to show their work to the community.
-                    </p>
+                    </small>
                     <small>
+                        <br>
+                        <br>
+                        <br>
+                        <i class="fa fa-clock-o"></i>
                         This survey contain 5 questions and will take ~10 minutes to complete.
                     </small>
                 </div>
@@ -59,11 +65,14 @@
                             <h3>2) Which school year are you in?</h3>
                             <p class="question-desc">So we have a better sense of our surveyed population.</p>
                             <select name="select" id="select">
-                                <option value="choice1">Year 1</option>
-                                <option value="choice2">Year 2</option>
-                                <option value="choice3">Year 3</option>
-                                <option value="choice4">Year 4</option>
-                                <option value="choice5">Year 5+</option>
+                                <option value="choice1">Undergraduate Year 1</option>
+                                <option value="choice2">Undergraduate Year 2</option>
+                                <option value="choice3">Undergraduate Year 3</option>
+                                <option value="choice4">Undergraduate Year 4</option>
+                                <option value="choice5">Undergraduate Year 5+</option>
+                                <option value="choice5">Graduate Year 1</option>
+                                <option value="choice5">Graduate Year 2+</option>
+                                <option value="choice5">Other</option>
                             </select>
                         </div>
                     </div>
@@ -89,6 +98,10 @@
                                     <input type="checkbox" name="checkbox" id="checkbox">
                                     <label for="checkbox">Mobile phone</label>
                                 </div>
+                                <div>
+                                    <input type="checkbox" name="checkbox" id="checkbox">
+                                    <label for="checkbox">Other</label>
+                                </div>
                             </div>
                         </div> 
                     </div>
@@ -100,7 +113,6 @@
                             <table>
                                 <thead>
                                     <tr>
-                                        <th></th>
                                         <th>Strongly disagree</th>
                                         <th>Disagree</th>
                                         <th>Neutral</th>
@@ -110,9 +122,6 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>
-                                            I like this UI
-                                        </td>
                                         <td>
                                             <input type="radio" name="radio" id="radio">
                                             <label for="radio"></label>

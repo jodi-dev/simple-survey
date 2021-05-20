@@ -23,16 +23,14 @@ Design a survey about a UI (linked to).
 
 - [Survey Results by Anna Kukhareva](https://dribbble.com/shots/10181096-Survey-Results): I like the grey background with the white paper-like section in the middle, it's like having an A4 piece of paper survey. I want to add top nav and footer. Overall I like how simple and clean it is, especially the color palette.
 
-- [Jusdo- New Sales Analytics Dashboard by Sreerag Nath](https://dribbble.com/shots/5805036-Jusdo-New-Sales-Analytics-Dashboard): I like the colour-blind friendly color palette.
-
 - [Fullscreen Form/Surey by Bonnie Mercer](https://dribbble.com/shots/7095805-Fullscreen-Form-Survey): Again I love the simple layout. I won't use separate pages for different questions because I don't want to route, but I do want to somehow section off each question.
 
 - [Hippocrates—Test Page by Arsen Kolyba](https://dribbble.com/shots/7913688-Hippocrates-Test-Page): I like the big header region, I could delineate a section like this to introduce the link/image of the UI to criticize.
 
 ## Palette
 
-Primary: #ffba59
-Secondary: #5560f7
+Background: #e8f2ff
+Primary: #255ec1
 
 ## PS
 
