@@ -30,8 +30,5 @@ Design a survey about a UI (linked to).
 ## Palette
 
 Background: #e8f2ff
+
 Primary: #255ec1
-
-## PS
-
-Hi TA/Professor! I designed my own [website](https://jodi-dev.github.io) and wouldn't mind your feedback to improve it.
