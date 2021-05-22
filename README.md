@@ -32,3 +32,7 @@ Design a survey about a UI (linked to).
 Background: #e8f2ff
 
 Primary: #255ec1
+
+<hr>
+
+Design and code &copy; Jodi Qiao 2021
