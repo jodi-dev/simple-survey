@@ -34,6 +34,10 @@ Background: #e8f2ff
 
 Primary: #255ec1
 
+## Deployment
+
+Currently deployed at [Heroku](https://seg3125-lab1.herokuapp.com/).
+
 <hr>
 
 Design and code &copy; Jodi Qiao 2021
